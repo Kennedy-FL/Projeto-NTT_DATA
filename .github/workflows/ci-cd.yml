@@ -42,8 +42,8 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     environment:
-     name: produção  
-     url: https://site-ntt.com
+      name: produção  
+      url: https://site-ntt.com
     steps:
     - name: Instalando o vercel
       run: npm install --global vercel
