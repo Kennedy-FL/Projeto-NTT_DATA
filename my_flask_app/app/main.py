@@ -1,7 +1,7 @@
 from flask import Flask
 
 app = Flask(__name__)  # Instância da aplicação Flask
-error
+
 @app.route("/")  # Rota principal da aplicação
 def home():
     return "<h1>Hello, NTT DATA</h1>"  # Retorna uma resposta HTML para o navegador
